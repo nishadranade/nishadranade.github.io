@@ -4,11 +4,20 @@ h1 {
 
 .topnav {
     background-color: #333;
-    overflow: hidden;
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
   }
 
 h3 {
     text-align:center;
+}
+
+#info {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .topnav a {
@@ -21,6 +30,6 @@ h3 {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color:silver;
     color: black;
 }
